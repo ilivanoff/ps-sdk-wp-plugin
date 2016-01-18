@@ -42,7 +42,7 @@ define('PSSDK_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('PSSDK_PLUGIN_LOG', PSSDK_PLUGIN_DIR . 'log.txt');
 
 if (version_compare($GLOBALS['wp_version'], PSSDK_PLUGIN_MINIMUM_WP_VERSION, '<')) {
-    $message = sprintf('Ps sdk plugin %s requires WordPress %s or higher.', AKISMET_VERSION, PSSDK_PLUGIN_MINIMUM_WP_VERSION);
+    $message = sprintf('Ps sdk plugin %s requires WordPress %s or higher.', PSSDK_PLUGIN_VERSION, PSSDK_PLUGIN_MINIMUM_WP_VERSION);
     die($message);
 }
 
