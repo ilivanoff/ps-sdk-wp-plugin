@@ -50,7 +50,7 @@ if (defined('PSSDK_PLUGIN_ENABLED')) {
 } else {
     define('PSSDK_PLUGIN_ENABLED', 1);
 
-    require_once ABSPATH . 'ps-includes/MainImportWp.php';
+    require_once ABSPATH . 'ps-includes/MainImport.php';
 
     $BRIDGE = PsWpBridge::inst();
 
